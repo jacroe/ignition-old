@@ -1,0 +1,7 @@
+Welcome to Ignition|Jacroe|December|25|2011|The Internet|post|You're already almost done.|<p>Hi. Congratulations on setting up Ignition. I understand that all you basically have done so far is upload a couple files to a server, but that is literally how easy Ignition is to start.</p>
+<p>The default output is valid HTML5, CSS3, and RSS.</p>
+<p>To edit some of the basic settings like the title and subtitle of your blog, edit the main Ignition file. Those variables should be the first few lines.</p>
+<p>Deeper editing, such as layout, can also be done by scrolling down and looking for "BEGIN TEMPLATE". CSS editing can be done with the css file in the aptly named <code>files</code> folder.</p>
+<p>The RSS feed can be accessed by adding <code>?p=feed</code> to the end of main Ignition file.</p>
+<p>Ignition is licensed under the GPL v3 so you can do whatever the heck you want. Tear it up, adapt it, add to it; I don't care.</p>
+<p>And now you've been ignited.</p>|Sun, 25 Dec 2011 04:05:55 -0600

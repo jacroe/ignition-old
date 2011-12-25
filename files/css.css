@@ -1,0 +1,45 @@
+* { padding: 0; margin: 0; }
+@font-face {
+    font-family: "Boris";
+    src: url(boris.ttf);
+}
+body {font-size: 13px; background: #008989; width:80%; margin-left:auto; margin-right: auto; border: 3px #000 solid; float:none;}
+header, footer, nav {background-color:#fff;}
+nav {font-size:1.3em; font-family:Helvetica;}
+nav a {color:#d54e21;}
+nav a:hover {background-color:#d54e21; color:#fff;}
+header h1 {color: #d54e21; font-size: 4em; font-family: Boris; text-align:center}
+article {background-color:#fff;}
+article h1 {color: #d54e21; font-size: 2em; font-family: Helvetica}
+article h1 a {color: #d54e21; font-family: Helvetica}
+article h1 a:hover {background-color: #d54e21; color:#ffffff; font-family: Helvetica}
+article a {color:#a60000;}
+article a:hover {background-color:#a60000; color:#ffffff;}
+article .post {}
+article .aside {border-left: 4px solid #a60000;}
+section#comments {}
+section#comments .name {font-size:1.2em;}
+section#comments .comment {margin-left: 40px; width:80%; background-color:lightgray; display:block; min-height: 100px; padding-left:5px; padding-right:5px; text-align:justify}
+section#comment_form {padding-left:10px; font-family:Helvetica;}
+section#comment_form input[type="text"], input[type="submit"], input[type="submit"], textarea {margin:5px; padding: 4px; border: solid 1px #008989; width: 300px;} 
+
+p {font-size: 1.5em; font-family: Helvetica; padding-left:10px; padding-bottom:10px;}
+blockquote {font-size: 1.5em; font-family: Helvetica; padding-left:60px; padding-bottom:10px;}
+p.hi {text-align:center;}
+.about {color: #d54e21; font-family: Helvetica}
+ol,ul {font-size:1.5em; font-family: Helvetica; padding-left:50px;}
+a {color:#df4e21; text-decoration: none; border-bottom:none;}
+img.floatLeft { 
+    float: left; 
+    margin: 4px; 
+}
+img.floatRight { 
+    float: right; 
+    margin: 4px; 
+}
+
+/*
+Older browsers
+ Firefox and IE for sure
+*/
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {  display:block; }
