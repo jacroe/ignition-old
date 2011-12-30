@@ -1,14 +1,14 @@
 * { padding: 0; margin: 0; }
 @font-face {
-    font-family: "Boris";
-    src: url(boris.ttf);
+    font-family: "BPReplay";
+    src: url(bpreplay.otf);
 }
 body {font-size: 13px; background: #008989; width:80%; margin-left:auto; margin-right: auto; border: 3px #000 solid; float:none;}
 header, footer, nav {background-color:#fff;}
 nav {font-size:1.3em; font-family:Helvetica;}
 nav a {color:#d54e21;}
 nav a:hover {background-color:#d54e21; color:#fff;}
-header h1 {color: #d54e21; font-size: 4em; font-family: Boris; text-align:center}
+header h1 {color: #d54e21; font-size: 4em; font-family: BPReplay; text-align:center}
 article {background-color:#fff;}
 article h1 {color: #d54e21; font-size: 2em; font-family: Helvetica}
 article h1 a {color: #d54e21; font-family: Helvetica}
