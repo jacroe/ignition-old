@@ -5,6 +5,7 @@ $ign_title = "An Ignition Blog";
 $ign_subtitle = "A single-file, flat-file blogging system";
 $ign_template = "default";
 $ign_timezone = "America/Chicago";
+$ign_filesys = 1;
 /* END SETTINGS */
 
 /* BEGIN FRONTEND */
@@ -243,7 +244,7 @@ return('
 // Image files (jpg, png, gif)
 if ($type == "jpg" || $type == "png" || $type == "gif") {
 return('
-<img src="http://thumblerific.appspot.com/t?image_url='.$file.'&width=200" alt="Image" class="floatRight" />');
+<img src="http://thumbthumbthumb.appspot.com/t?image_url='.$file.'&width=200" alt="Image" class="floatRight" />');
 }
 
 // PDF Documents
